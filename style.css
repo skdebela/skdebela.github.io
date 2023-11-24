@@ -175,6 +175,7 @@ footer .social {
 .social i:hover{
     font-size: 35px;
     color: #471AA0;
+    transition: .4s;
 
 }
 
