@@ -228,6 +228,7 @@ progress::-webkit-progress-bar {
     color: #471AA0;
     letter-spacing: 2px;
     font-size: 25px;
+    margin-top: 17px;
     margin-bottom: 7px;
     text-transform: capitalize;
 }
@@ -238,6 +239,8 @@ progress::-webkit-progress-bar {
     line-height: 17px;
     font-size: 17px;
     margin-bottom: 45px;
+    text-align: justify;
+    padding: 0% 3%;
 }
 
 .project img{
