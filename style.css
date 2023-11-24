@@ -211,10 +211,8 @@ progress::-webkit-progress-value {
 .project {
     width: 25%;
     height: 60%;
-    margin: 50px auto;
+    margin: 50px 50px;
     padding: 10px;
-    box-sizing: border-box;
-    justify-content: space-between;
     border: 0.3px solid #505050;
     border-radius: 5%;
     text-align: center;
@@ -237,6 +235,13 @@ progress::-webkit-progress-value {
 
 .project img{
     height: 150px;
+    width: 250px;
     border-radius: 5%;
 }
 
+.project:hover {
+    border: 0.3px solid #471AA0;
+}
+.project a{
+    text-decoration: none;
+}
