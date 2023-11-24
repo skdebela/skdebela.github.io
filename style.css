@@ -167,7 +167,7 @@ footer{
     width: 100%;
     text-align: center;
     display: flex;
-    border-top: 0.3px solid rgb(25, 25, 25);
+    border-top: 0.3px solid #505050;
 }
 
 footer .contact {
