@@ -199,13 +199,16 @@ footer .social {
 }
 
 .skills progress {
-    width: 70%;
+    width: 100%;
     margin-bottom: 50px;
     border-radius: 10em;
     color: #471AA0;
 }
 progress::-webkit-progress-value {
     background-color: #50299d;
+}
+progress::-webkit-progress-bar {
+    background-color: #ffffff;
 }
 
 .project {
@@ -234,8 +237,8 @@ progress::-webkit-progress-value {
 }
 
 .project img{
-    height: 150px;
-    width: 250px;
+    height: 50%;
+    width: 80%;
     border-radius: 5%;
 }
 
