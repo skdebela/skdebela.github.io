@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    box-sizing: border-box;
+    background-color: #101010;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+    border-bottom: solid #471AA0 5px;
+}
+
+.logo {
+    cursor: pointer;
+}
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+span {
+    color: #471AA0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.current-page {
+    color: #471AA0;
+    font-size: x-large;
+}
+
+nav ul li a:hover {
+    color: #471AA0;
+    transition: .4s;
+}
+
+.content {
+    margin-top: 20%;
+    left: 8%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: #471AA0;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.about {
+    border-bottom: 0.3px solid rgb(25, 25, 25);
+    border-top: 0.3px solid rgb(50, 50, 50);
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 50px;
+    text-align: center;
+}
+.main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.about-image {
+    width: 40%;
+}
+
+.about-image img {
+    width: 80%;
+    margin-left: 50px;
+}
+.about-text {
+    width: 50%;
+}
+.about-text h2 {
+    color: #471AA0;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: #471AA0;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color:white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+.about-text ul {
+    list-style-type: none;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.contact-me{
+    width: 100%;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me a i{
+    width: 100%;
+    position: relative;
+    height: 200px;
+    flex-direction: column;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    border-top: 0.3px solid rgb(25, 25, 25);
+}
+
+footer .contact {
+    width: 35%;
+    padding-left: 10%;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+footer .contact p{
+    color: #471AA0;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    position: relative;
+}
+
+footer .social {
+    display: flex;
+    width: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.social i{
+    font-size: 30px;
+    color: white;
+    padding-left: 100px;
+    margin-bottom: 10px;
+    
+}
+
+.social i:hover{
+    font-size: 35px;
+    color: #471AA0;
+
+}
+
+#page-title {
+    text-align: center;
+}
+
+.skills {
+    width: 40%;
+    margin: 50px;
+}
+
+.skills ul {
+    list-style-type: none;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.skills progress {
+    width: 70%;
+    margin-bottom: 50px;
+    border-radius: 10em;
+    color: #471AA0;
+}
+progress::-webkit-progress-value {
+    background-color: #50299d;
+}
+
+.project {
+    width: 25%;
+    height: 60%;
+    margin: 50px;
+    padding: 10px;
+    border: 0.3px solid rgb(25, 25, 25);
+    text-align: center;
+}
+.project h6 {
+    color: #471AA0;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+}
+
+.project p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 17px;
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+
+.project img{
+    height: 150px;
+    padding: 15px;
+}
+
