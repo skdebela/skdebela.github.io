@@ -216,7 +216,10 @@ footer .social {
 
 .skills {
     width: 40%;
-    margin: 50px;
+    margin:0% 5%;
+    padding: 2% 5%;
+    border: 0.3px solid #505050;
+    border-radius: 5%;
 }
 
 .skills ul {
@@ -225,7 +228,6 @@ footer .social {
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
-    margin-bottom: 45px;
 }
 
 .skills progress {
