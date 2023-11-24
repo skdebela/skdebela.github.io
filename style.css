@@ -129,15 +129,17 @@ h4 {
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 20px;
-    margin-bottom: 45px;
+    margin-bottom: 15px;
+    text-align: justify;
 }
 .about-text ul {
     list-style-type: none;
     color: white;
     letter-spacing: 1px;
-    line-height: 28px;
+    line-height: 18px;
     font-size: 18px;
-    margin-bottom: 45px;
+    margin-bottom: 15px;
+    text-align: left;
 }
 
 .contact-me{
@@ -265,6 +267,6 @@ progress::-webkit-progress-value {
 
 .project img{
     height: 150px;
-    padding: 15px;
+    border-radius: 5%;
 }
 
