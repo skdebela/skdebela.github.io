@@ -181,7 +181,7 @@ footer .social {
 #page-title {
     text-align: center;
 }
-
+ /* Skills page specific styling */
 .skills {
     width: 40%;
     margin:0% 5%;
@@ -204,6 +204,8 @@ footer .social {
     border-radius: 10em;
     color: #471AA0;
 }
+
+/* Styling for the progress bar on skills page */
 progress::-webkit-progress-value {
     background-color: #50299d;
 }
@@ -211,6 +213,7 @@ progress::-webkit-progress-bar {
     background-color: #ffffff;
 }
 
+/* Project page specific styling */
 .project {
     width: 25%;
     height: 60%;
