@@ -248,3 +248,20 @@ progress::-webkit-progress-bar {
 .project a{
     text-decoration: none;
 }
+
+/* scrollbar customization */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #101010;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #471AA0;
+}
