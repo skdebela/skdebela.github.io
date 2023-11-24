@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    /*font-family: 'Josefin Sans', sans-serif;*/
     box-sizing: border-box;
     background-color: #101010;
 }
@@ -83,8 +82,8 @@ h4 {
 }
 
 .about {
-    border-bottom: 0.3px solid rgb(25, 25, 25);
-    border-top: 0.3px solid rgb(50, 50, 50);
+    border-bottom: 0.3px solid #505050;
+    border-top: 0.3px solid #505050;
     
     display: flex;
     justify-content: space-between;
@@ -242,7 +241,10 @@ progress::-webkit-progress-value {
     height: 60%;
     margin: 50px;
     padding: 10px;
-    border: 0.3px solid rgb(25, 25, 25);
+    box-sizing: border-box;
+    justify-content: space-between;
+    border: 0.3px solid #505050;
+    border-radius: 5%;
     text-align: center;
 }
 .project h6 {
