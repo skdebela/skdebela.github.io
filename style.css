@@ -132,6 +132,7 @@ h4 {
     margin-bottom: 15px;
     text-align: justify;
 }
+/*
 .about-text ul {
     list-style-type: none;
     color: white;
@@ -163,7 +164,7 @@ h4 {
     position: relative;
     height: 200px;
     flex-direction: column;
-}
+}*/
 
 footer{
     width: 100%;
@@ -243,7 +244,7 @@ progress::-webkit-progress-value {
 .project {
     width: 25%;
     height: 60%;
-    margin: 50px;
+    margin: 50px auto;
     padding: 10px;
     box-sizing: border-box;
     justify-content: space-between;
