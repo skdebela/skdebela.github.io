@@ -1,4 +1,4 @@
 # samuelmideksa.github.io
 
 A Portfolio Website
-Using only HTML and CSS
+deployed on github pages [here](https://skdebela.github.io/)
